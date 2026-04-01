@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "statusline2",
+      "name": "statusline",
       "source": {
         "source": "github",
         "repo": "crystian/crystools-statusline"
