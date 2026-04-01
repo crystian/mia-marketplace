@@ -10,7 +10,9 @@ claude plugin add mia-marketplace
 
 ## Plugins
 
-*Coming soon — plugins will be listed here as they are added.*
+| Plugin | Description |
+|--------|-------------|
+| [mia-statusline](https://github.com/crystian/crystools-statusline) | Status line with context window, git, cost, rate limits, and cache stats. |
 
 ## Contributing
 

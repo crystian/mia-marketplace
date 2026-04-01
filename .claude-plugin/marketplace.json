@@ -6,5 +6,11 @@
     "name": "Makers IA",
     "url": "https://makersia.com"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "mia-statusline",
+      "source": "https://github.com/crystian/crystools-statusline",
+      "description": "Status line with context window, git, cost, rate limits, and cache stats."
+    }
+  ]
 }
