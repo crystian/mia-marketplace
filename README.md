@@ -5,7 +5,7 @@ Community-curated collection of Claude Code plugins, created and shared by [Make
 ## Install
 
 ```bash
-claude plugin add mia-marketplace
+claude plugin marketplace add crystian/mia-marketplace
 ```
 
 ## Plugins
