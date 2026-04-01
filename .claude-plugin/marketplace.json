@@ -1,12 +1,10 @@
 {
   "name": "mia-marketplace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Makers IA Marketplace",
   "owner": {
     "name": "Makers IA Team",
     "linkedin": "https://www.linkedin.com/in/crystian"
   },
-  "plugins": [
-    
-  ]
+  "plugins": []
 }
