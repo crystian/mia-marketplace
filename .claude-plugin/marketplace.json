@@ -1,10 +1,12 @@
 {
   "name": "mia-marketplace",
   "version": "0.0.3",
-  "description": "Makers IA Marketplace",
+  "description": "Community-curated collection of Claude Code plugins, created and shared by Makers IA members.",
   "owner": {
-    "name": "Makers IA Team",
-    "linkedin": "https://www.linkedin.com/in/crystian"
+    "name": "Makers IA",
+    "url": "https://makersia.com"
   },
-  "plugins": []
+  "plugins": [
+
+  ]
 }
