@@ -20,6 +20,16 @@
         "status line"
       ],
       "category": "tooling"
+    },
+    {
+      "name": "sharpen",
+      "source": {
+        "source": "github",
+        "repo": "crystian/crystools-sharpen"
+      },
+      "description": "Open collection of AI agent skills — reusable, framework-agnostic SKILL.md packages",
+      "keywords": ["skills", "agents", "SKILL.md", "kaizen"],
+      "category": "tooling"
     }
   ]
 }
