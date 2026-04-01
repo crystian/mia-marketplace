@@ -37,7 +37,7 @@
       "category": "skill"
     },
     {
-      "name": "agents-talk",
+      "name": "crystools-agents-talk",
       "source": {
         "source": "github",
         "repo": "crystian/crystools-agents-talk"
