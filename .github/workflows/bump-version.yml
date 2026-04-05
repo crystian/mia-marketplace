@@ -26,7 +26,7 @@ jobs:
       - name: Bump version
         run: |
           FILE=".claude-plugin/marketplace.json"
-          CURRENT=$(jq -r '.version' "$FILE")
+          CURRENT=$(jq -r '.metadata.version' "$FILE")
           IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT"
 
           BUMP="${{ inputs.bump || 'patch' }}"
@@ -37,7 +37,7 @@ jobs:
           esac
 
           NEW="${MAJOR}.${MINOR}.${PATCH}"
-          jq --arg v "$NEW" '.version = $v' "$FILE" > tmp.json && mv tmp.json "$FILE"
+          jq --arg v "$NEW" '.metadata.version = $v' "$FILE" > tmp.json && mv tmp.json "$FILE"
           echo "VERSION=$NEW" >> "$GITHUB_ENV"
           echo "Bumped $CURRENT -> $NEW"
 
